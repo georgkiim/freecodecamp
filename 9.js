@@ -6,3 +6,5 @@ let myVar = 87;
 
 // Only change code below this line
 myVar++;
+
+const product = 2.0 * 2.5;
