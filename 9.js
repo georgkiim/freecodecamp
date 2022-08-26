@@ -11,3 +11,8 @@ const product = 2.0 * 2.5;
 const remainder = 11 % 3;
 let myStr = 'This is the first sentence.';
 myStr +='This is the second sentence.';
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
