@@ -8,3 +8,8 @@ function billboard(name, price = 30){
     const multiply = (num1, num2) => {
       return num1 * num2;
     };
+
+    var countSheep = function (num){
+        let str = "";
+        for(let i = 1; i <= num; i++) { str+= `${i} sheep...`; }
+        return str;
