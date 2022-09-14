@@ -14,9 +14,7 @@ function billboard(name, price = 30){
         for(let i = 1; i <= num; i++) { str+= `${i} sheep...`; }
         return str;
 
-        
+
         const removeChar = str => {
             return str.slice(1, str.length - 1)
         }
-        
-        
