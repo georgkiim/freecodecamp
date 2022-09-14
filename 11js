@@ -64,3 +64,11 @@
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
     return laLigaGoals+copaDelReyGoals+championsLeagueGoals;
   }
+
+
+  function squareOrSquareRoot(array) {
+    return array.map(function(int) {
+      var sqrt = Math.sqrt(int);
+      return Number.isInteger(sqrt) ? sqrt : int * int;
+    })
+  }
