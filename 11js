@@ -60,3 +60,7 @@
     <button type="submit">Submit</button>
   </form>
 </main>
+
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+    return laLigaGoals+copaDelReyGoals+championsLeagueGoals;
+  }
