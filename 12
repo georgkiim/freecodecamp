@@ -1,0 +1,5 @@
+function mouthSize(animal) {
+  const a = 'alligator';
+  if(animal.toUpperCase()==a.toUpperCase()){ return 'small';
+} else return 'wide';
+}
