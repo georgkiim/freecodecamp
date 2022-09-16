@@ -60,3 +60,8 @@ function distinct(a) {
     function greet(name){
         return "Hello, "+name+" how are you doing today?";
       }
+
+
+      String.prototype.isUpperCase = function() {
+        return String(this) === this.toUpperCase();
+      }
