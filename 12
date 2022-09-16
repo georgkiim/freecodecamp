@@ -57,3 +57,6 @@ function distinct(a) {
     case 4:
     answer = "delta";
     break;    
+    function greet(name){
+        return "Hello, "+name+" how are you doing today?";
+      }
