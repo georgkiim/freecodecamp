@@ -9,3 +9,13 @@ function mouthSize(animal) {
 function distinct(a) {
     return [...new Set(a)];
   }
+
+  function arrayPlusArray(arr1, arr2) {
+    let sum = 0;
+    let arrayPlus = arr1.concat(arr2);
+  for (i=0; i < arrayPlus.length; i++){
+      sum += arrayPlus[i];
+      
+    }
+    return sum;
+    }
