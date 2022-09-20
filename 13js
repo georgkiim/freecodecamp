@@ -1,0 +1,30 @@
+//Write a function which calculates the average of the numbers in a given list.
+
+//Note: Empty arrays should return 0.//
+
+function findAverage(array) {
+    2
+      var sum = 0;
+    3
+    for(var i = 0; i < array.length; i++){
+    4
+        sum += array[i];
+    5
+        }
+    6
+     if(array.length==0){
+    7
+     return 0
+    8
+    } else {
+    9
+     return sum/array.length
+    10
+    }
+    11
+    }
+     Imp
+
+
+
+     
